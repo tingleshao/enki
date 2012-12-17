@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby "1.9.3"
 
+gem'foreman'
 gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
@@ -20,7 +21,7 @@ platforms :ruby do
 end
 
 platforms :jruby do
-  gem 'activerecord-jdbcsqlite3-adapter'
+ # gem 'activerecord-jdbcsqlite3-adapter'
   gem 'trinidad'
   gem 'jruby-openssl'
 end
